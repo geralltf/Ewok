@@ -1,0 +1,9 @@
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.Lang.Test.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.Lang.Test.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.exe
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\obj\Debug\Ewok.Lang.Test.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\obj\Debug\Ewok.Lang.Test.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.Machine.Asm.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\Ewok.Lang.Test\bin\Debug\Ewok.Machine.Asm.pdb

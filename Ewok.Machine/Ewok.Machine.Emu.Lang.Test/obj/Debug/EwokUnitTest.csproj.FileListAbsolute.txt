@@ -1,0 +1,7 @@
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\bin\Debug\EwokUnitTest.dll
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\bin\Debug\EwokUnitTest.pdb
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\bin\Debug\Ewok.exe
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\bin\Debug\Ewok.pdb
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\obj\Debug\EwokUnitTest.dll
+C:\Users\AgentG\Desktop\M68HC11.Simulator[0.2]\EwokUnitTest\obj\Debug\EwokUnitTest.pdb

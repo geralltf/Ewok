@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9146689B-4CD6-48D9-A04E-162A4EB0AEC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ewok.Machine.Dasm.S19</RootNamespace>
+    <AssemblyName>Ewok.Machine.Dasm.S19</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParserS19.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S19Record.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ewok.Machine.Common.ProcessingUnit\Ewok.Machine.Common.ProcessingUnit.csproj">
+      <Project>{77411B85-0762-4293-81D8-658D13259687}</Project>
+      <Name>Ewok.Machine.Common.ProcessingUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Debug\Ewok.Machine.Debug.csproj">
+      <Project>{5CBD1933-1558-4523-8A6D-D767767C6319}</Project>
+      <Name>Ewok.Machine.Debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.ProcessingUnit.6811\Ewok.Machine.ProcessingUnit.6811.csproj">
+      <Project>{48B59152-6201-40F6-ACE1-BB43AE65DDF0}</Project>
+      <Name>Ewok.Machine.ProcessingUnit.6811</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine\Ewok.Machine.Common.csproj">
+      <Project>{EF53E58B-3E28-4E1A-9D24-3583588469B1}</Project>
+      <Name>Ewok.Machine.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

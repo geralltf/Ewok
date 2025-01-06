@@ -1,0 +1,5 @@
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm\bin\Debug\Ewok.Machine.Asm.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm\bin\Debug\Ewok.Machine.Asm.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm\obj\x86\Debug\Ewok.Machine.Asm.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm\obj\x86\Debug\Ewok.Machine.Asm.pdb

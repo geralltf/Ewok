@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B10CA3E1-5C4B-4628-B18F-2C158C74CEC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ewok.Lang.Test</RootNamespace>
+    <AssemblyName>Ewok.Lang.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Lang.6811.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ewok.Machine.Asm.S19\Ewok.Machine.Asm.S19.csproj">
+      <Project>{D2635AC3-5499-4CA7-9F87-91FCD73A5523}</Project>
+      <Name>Ewok.Machine.Asm.S19</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Common.ProcessingUnit\Ewok.Machine.Common.ProcessingUnit.csproj">
+      <Project>{77411B85-0762-4293-81D8-658D13259687}</Project>
+      <Name>Ewok.Machine.Common.ProcessingUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Dasm\Ewok.Machine.Dasm.S19.csproj">
+      <Project>{9146689B-4CD6-48D9-A04E-162A4EB0AEC3}</Project>
+      <Name>Ewok.Machine.Dasm.S19</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Debug\Ewok.Machine.Debug.csproj">
+      <Project>{5CBD1933-1558-4523-8A6D-D767767C6319}</Project>
+      <Name>Ewok.Machine.Debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Emu\Ewok.Machine.Emu.csproj">
+      <Project>{6D2E5551-33DC-4D48-BE7A-D159EB599D4F}</Project>
+      <Name>Ewok.Machine.Emu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.ProcessingUnit.6811\Ewok.Machine.ProcessingUnit.6811.csproj">
+      <Project>{48B59152-6201-40F6-ACE1-BB43AE65DDF0}</Project>
+      <Name>Ewok.Machine.ProcessingUnit.6811</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine\Ewok.Machine.Common.csproj">
+      <Project>{EF53E58B-3E28-4E1A-9D24-3583588469B1}</Project>
+      <Name>Ewok.Machine.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

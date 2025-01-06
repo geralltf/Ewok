@@ -1,0 +1,30 @@
+	ORG $C000
+main: LDAA #$22
+	STAA $200
+	
+	LDAA #$33
+	STAA $201
+	
+	LDAA #$44
+	STAA $2FE
+	
+	LDAA #$55
+	STAA $2FF
+	
+	LDAA #$66
+	STAA $300
+	
+	LDAA #$77
+	STAA $301
+	
+	
+begin: LDS #$0300
+	LDAA $0200
+	LDAB $0201
+	
+	BSR SSUM
+	STAA $202
+	BSR main
+	STOP
+SSUM: ABA
+	RTS

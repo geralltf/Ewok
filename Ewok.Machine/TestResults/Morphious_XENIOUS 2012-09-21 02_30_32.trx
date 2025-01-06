@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="17e940ce-e3a8-474f-a79c-3baabf67a5da" name="Morphious@XENIOUS 2012-09-21 02:30:32" runUser="XENIOUS\Morphious" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="799cc16c-76cf-48fb-8eb1-5a45bc428fc6">
+    <Deployment runDeploymentRoot="Morphious_XENIOUS 2012-09-21 02_30_32">
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\bin\Debug\Ewok.Machine.Common.dll" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Emu\bin\Debug\Ewok.exe" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.ProcessingUnit.6811\bin\Debug\Ewok.Machine.ProcessingUnit.6811.dll" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Dasm\bin\Debug\Ewok.Machine.Dasm.S19.dll" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Debug\bin\Debug\Ewok.Machine.Debug.dll" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Common.ProcessingUnit\bin\Debug\Ewok.Machine.Common.ProcessingUnit.dll" />
+      <DeploymentItem filename="C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\bin\Debug\Ewok.Machine.Asm.S19.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-21T02:30:32.6295821+10:00" queuing="2012-09-21T02:30:34.7037007+10:00" start="2012-09-21T02:30:34.9007120+10:00" finish="2012-09-21T02:30:59.3141083+10:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="10" executed="7" passed="6" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="XENIOUS" outcome="Error" timestamp="2012-09-21T02:30:59.0660942+10:00">
+        <Text>One of the background threads threw exception: 
+System.Exception: [c007] Operand '$c00e' a 32 bit value, must be a 16 bit or 8 bit value. Since the operation implies extended addressing
+   at Ewok.Machine.Dasm.S19.ParserS19.aquireMethodParameters(CommonOperation op, Object[]&amp; methodParameters) in C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Dasm\ParserS19.cs:line 548
+   at Ewok.Machine.Dasm.S19.ParserS19.&lt;&gt;c__DisplayClass8.&lt;buildInstructionMethodReference&gt;b__3() in C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Dasm\ParserS19.cs:line 487
+   at Ewok.M68HC11.CPU.Operation.Operation.Invoke() in C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.ProcessingUnit.6811\MPU\Operation\Operation.cs:line 89
+   at Ewok.Machine.Common.ProcessingUnit.ProcessingUnit.cycle() in C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Common.ProcessingUnit\ProcessingUnit.cs:line 108
+   at Ewok.Machine.Common.ProcessingUnit.ProcessingUnit.&lt;init&gt;b__0() in C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Common.ProcessingUnit\ProcessingUnit.cs:line 58
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="XENIOUS" outcome="Error" timestamp="2012-09-21T02:30:59.3101081+10:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestNegation" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="b9927f32-cda0-db75-0e8b-87ab650d827a">
+      <Execution id="787a7e13-f353-4d29-b58e-17657aca1bc7" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNegation" />
+    </UnitTest>
+    <UnitTest name="TestSubroutines" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="782bdfc9-8d74-34ac-8bfd-04daa972eddd">
+      <Execution id="fe5a2c3a-0a62-4ddb-a8ee-3447690b75b7" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubroutines" />
+    </UnitTest>
+    <UnitTest name="TestJumping" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="d06a1aa4-2d1c-851a-72a4-3aa3d8922a30">
+      <Execution id="07a24a90-17fa-490f-9be6-277c2a51a511" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJumping" />
+    </UnitTest>
+    <UnitTest name="TestInterrupts" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="69198047-6440-1cd4-517e-1f4650bf925a">
+      <Execution id="4c518fdf-7afb-42bb-af6a-1eb5f45c27db" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInterrupts" />
+    </UnitTest>
+    <UnitTest name="TestLoadAccumulators" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="b9c0067a-4126-9aea-5754-0bf99f15bbe7">
+      <Execution id="88cd32c1-2446-4827-9337-ae59097d25f5" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoadAccumulators" />
+    </UnitTest>
+    <UnitTest name="TestLoadIndexRegisters" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="0be6db12-fd7a-792c-a953-d369c4213215">
+      <Execution id="2b071bd0-1998-4f0e-a900-a3411b6a2e37" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLoadIndexRegisters" />
+    </UnitTest>
+    <UnitTest name="TestRAMOperations" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="22c13d98-ab81-f52d-893e-377b1c300f83">
+      <Execution id="1f1f17ee-4faa-413c-ab2e-3d7b44775bc8" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRAMOperations" />
+    </UnitTest>
+    <UnitTest name="TestSubtraction" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="01ecdc32-ebea-8a1d-2d95-b8121f3d911b">
+      <Execution id="b5a40caf-da76-470a-9671-9543f4ebce37" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubtraction" />
+    </UnitTest>
+    <UnitTest name="TestAddition" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="87e98c1c-8de4-c15a-dd5d-ee3e8effbd88">
+      <Execution id="ece8fc08-9731-42b9-a1d0-6b13f9ad7c58" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddition" />
+    </UnitTest>
+    <UnitTest name="TestStackOperations" storage="c:\users\morphious\desktop\ewok.machine\ewok.machine.emu.lang.test\bin\debug\ewok.lang.test.dll" id="a1c85a3e-f83c-203f-656c-63047d98dd68">
+      <Execution id="4030bdb9-f2d7-45c4-8443-a3235f3973ca" />
+      <TestMethod codeBase="C:/Users/Morphious/Desktop/Ewok.Machine/Ewok.Machine.Emu.Lang.Test/bin/Debug/Ewok.Lang.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ewok.Lang.Test.Lang_6811, Ewok.Lang.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStackOperations" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b9c0067a-4126-9aea-5754-0bf99f15bbe7" executionId="88cd32c1-2446-4827-9337-ae59097d25f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0be6db12-fd7a-792c-a953-d369c4213215" executionId="2b071bd0-1998-4f0e-a900-a3411b6a2e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87e98c1c-8de4-c15a-dd5d-ee3e8effbd88" executionId="ece8fc08-9731-42b9-a1d0-6b13f9ad7c58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01ecdc32-ebea-8a1d-2d95-b8121f3d911b" executionId="b5a40caf-da76-470a-9671-9543f4ebce37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9927f32-cda0-db75-0e8b-87ab650d827a" executionId="787a7e13-f353-4d29-b58e-17657aca1bc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d06a1aa4-2d1c-851a-72a4-3aa3d8922a30" executionId="07a24a90-17fa-490f-9be6-277c2a51a511" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="782bdfc9-8d74-34ac-8bfd-04daa972eddd" executionId="fe5a2c3a-0a62-4ddb-a8ee-3447690b75b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1c85a3e-f83c-203f-656c-63047d98dd68" executionId="4030bdb9-f2d7-45c4-8443-a3235f3973ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22c13d98-ab81-f52d-893e-377b1c300f83" executionId="1f1f17ee-4faa-413c-ab2e-3d7b44775bc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69198047-6440-1cd4-517e-1f4650bf925a" executionId="4c518fdf-7afb-42bb-af6a-1eb5f45c27db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="88cd32c1-2446-4827-9337-ae59097d25f5" testId="b9c0067a-4126-9aea-5754-0bf99f15bbe7" testName="TestLoadAccumulators" computerName="XENIOUS" duration="00:00:00.1289194" startTime="2012-09-21T02:30:35.0417200+10:00" endTime="2012-09-21T02:30:36.9868313+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88cd32c1-2446-4827-9337-ae59097d25f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b071bd0-1998-4f0e-a900-a3411b6a2e37" testId="0be6db12-fd7a-792c-a953-d369c4213215" testName="TestLoadIndexRegisters" computerName="XENIOUS" duration="00:00:00.1984795" startTime="2012-09-21T02:30:37.0008321+10:00" endTime="2012-09-21T02:30:37.2098441+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b071bd0-1998-4f0e-a900-a3411b6a2e37">
+    </UnitTestResult>
+    <UnitTestResult executionId="ece8fc08-9731-42b9-a1d0-6b13f9ad7c58" testId="87e98c1c-8de4-c15a-dd5d-ee3e8effbd88" testName="TestAddition" computerName="XENIOUS" duration="00:00:00.1498723" startTime="2012-09-21T02:30:37.2278451+10:00" endTime="2012-09-21T02:30:37.3838540+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ece8fc08-9731-42b9-a1d0-6b13f9ad7c58">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5a40caf-da76-470a-9671-9543f4ebce37" testId="01ecdc32-ebea-8a1d-2d95-b8121f3d911b" testName="TestSubtraction" computerName="XENIOUS" duration="00:00:00.0876794" startTime="2012-09-21T02:30:37.4208561+10:00" endTime="2012-09-21T02:30:37.5148615+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5a40caf-da76-470a-9671-9543f4ebce37">
+    </UnitTestResult>
+    <UnitTestResult executionId="787a7e13-f353-4d29-b58e-17657aca1bc7" testId="b9927f32-cda0-db75-0e8b-87ab650d827a" testName="TestNegation" computerName="XENIOUS" duration="00:00:00.0542372" startTime="2012-09-21T02:30:37.5268622+10:00" endTime="2012-09-21T02:30:37.5938660+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="787a7e13-f353-4d29-b58e-17657aca1bc7">
+    </UnitTestResult>
+    <UnitTestResult executionId="07a24a90-17fa-490f-9be6-277c2a51a511" testId="d06a1aa4-2d1c-851a-72a4-3aa3d8922a30" testName="TestJumping" computerName="XENIOUS" duration="00:00:00.0559610" startTime="2012-09-21T02:30:37.9328854+10:00" endTime="2012-09-21T02:30:38.0048895+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07a24a90-17fa-490f-9be6-277c2a51a511">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe5a2c3a-0a62-4ddb-a8ee-3447690b75b7" testId="782bdfc9-8d74-34ac-8bfd-04daa972eddd" testName="TestSubroutines" computerName="XENIOUS" duration="00:00:21.2952180" startTime="2012-09-21T02:30:38.0178903+10:00" endTime="2012-09-21T02:30:59.3131083+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe5a2c3a-0a62-4ddb-a8ee-3447690b75b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="4030bdb9-f2d7-45c4-8443-a3235f3973ca" testId="a1c85a3e-f83c-203f-656c-63047d98dd68" testName="TestStackOperations" computerName="XENIOUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4030bdb9-f2d7-45c4-8443-a3235f3973ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f1f17ee-4faa-413c-ab2e-3d7b44775bc8" testId="22c13d98-ab81-f52d-893e-377b1c300f83" testName="TestRAMOperations" computerName="XENIOUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f1f17ee-4faa-413c-ab2e-3d7b44775bc8">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c518fdf-7afb-42bb-af6a-1eb5f45c27db" testId="69198047-6440-1cd4-517e-1f4650bf925a" testName="TestInterrupts" computerName="XENIOUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c518fdf-7afb-42bb-af6a-1eb5f45c27db">
+    </UnitTestResult>
+  </Results>
+</TestRun>

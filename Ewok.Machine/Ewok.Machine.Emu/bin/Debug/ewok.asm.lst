@@ -1,0 +1,36 @@
+AS11M 01.05  Tue Sep 25, 2012 00:19  ewok.asm.lst
+
+0001 c000                        	ORG $C000
+0002 c000 86 22                  main: LDAA #$22
+0003 c002 b7 02 00               	STAA $200
+0004                             	
+0005 c005 86 33                  	LDAA #$33
+0006 c007 b7 02 01               	STAA $201
+0007                             	
+0008 c00a 86 44                  	LDAA #$44
+0009 c00c b7 02 fe               	STAA $2FE
+0010                             	
+0011 c00f 86 55                  	LDAA #$55
+0012 c011 b7 02 ff               	STAA $2FF
+0013                             	
+0014 c014 86 66                  	LDAA #$66
+0015 c016 b7 03 00               	STAA $300
+0016                             	
+0017 c019 86 77                  	LDAA #$77
+0018 c01b b7 03 01               	STAA $301
+0019                             	
+0020                             	
+0021 c01e 8e 03 00               begin: LDS #$0300
+0022 c021 b6 02 00               	LDAA $0200
+0023 c024 f6 02 01               	LDAB $0201
+0024                             	
+0025 c027 8d 06                  	BSR SSUM
+0026 c029 b7 02 02               	STAA $202
+0027 c02c 8d d2                  	BSR main
+0028 c02e cf                     	STOP
+0029 c02f 1b                     SSUM: ABA
+0030 c030 39                     	RTS
+
+
+Number of errors 0
+Number of warnings 0

@@ -1,0 +1,10 @@
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\bin\Debug\Ewok.Machine.Common.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\bin\Debug\Ewok.Machine.Common.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\Ewok.Machine.Common.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\Ewok.Machine.Common.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine\bin\Debug\Ewok.Machine.Common.dll
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine\bin\Debug\Ewok.Machine.Common.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\Ewok.Machine.Common.dll
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine\obj\Debug\Ewok.Machine.Common.pdb

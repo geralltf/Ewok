@@ -1,0 +1,10 @@
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\bin\Debug\Ewok.Machine.Asm.S19.exe
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\bin\Debug\Ewok.Machine.Asm.S19.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\Ewok.Machine.Asm.S19.exe
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\Ewok.Machine.Asm.S19.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\bin\Debug\Ewok.Machine.Asm.S19.exe
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\bin\Debug\Ewok.Machine.Asm.S19.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\Ewok.Machine.Asm.S19.exe
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Asm.S19\obj\x86\Debug\Ewok.Machine.Asm.S19.pdb

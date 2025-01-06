@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CBD1933-1558-4523-8A6D-D767767C6319}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ewok.Machine.Debug</RootNamespace>
+    <AssemblyName>Ewok.Machine.Debug</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Debugger.cs" />
+    <Compile Include="FrmMemoryWatchDebugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemoryWatchDebugger.Designer.cs">
+      <DependentUpon>FrmMemoryWatchDebugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemoryViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemoryViewer.Designer.cs">
+      <DependentUpon>FrmMemoryViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interpreter.cs" />
+    <Compile Include="FrmMemoryScannerDebugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemoryScannerDebugger.Designer.cs">
+      <DependentUpon>FrmMemoryScannerDebugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ewok.Machine.Common.ProcessingUnit\Ewok.Machine.Common.ProcessingUnit.csproj">
+      <Project>{77411B85-0762-4293-81D8-658D13259687}</Project>
+      <Name>Ewok.Machine.Common.ProcessingUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine\Ewok.Machine.Common.csproj">
+      <Project>{EF53E58B-3E28-4E1A-9D24-3583588469B1}</Project>
+      <Name>Ewok.Machine.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMemoryViewer.resx">
+      <DependentUpon>FrmMemoryViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemoryWatchDebugger.resx">
+      <DependentUpon>FrmMemoryWatchDebugger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemoryScannerDebugger.resx">
+      <DependentUpon>FrmMemoryScannerDebugger.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

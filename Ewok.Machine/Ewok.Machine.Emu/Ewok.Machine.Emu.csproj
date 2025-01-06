@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D2E5551-33DC-4D48-BE7A-D159EB599D4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ewok.Machine.Emu</RootNamespace>
+    <AssemblyName>Ewok</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PropertyBag.cs" />
+    <Compile Include="FrmControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmControls.Designer.cs">
+      <DependentUpon>FrmControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainIDE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainIDE.Designer.cs">
+      <DependentUpon>FrmMainIDE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemoryMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemoryMap.Designer.cs">
+      <DependentUpon>FrmMemoryMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOutputMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOutputMessages.Designer.cs">
+      <DependentUpon>FrmOutputMessages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditor.Designer.cs">
+      <DependentUpon>FrmEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcessingUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcessingUnit.Designer.cs">
+      <DependentUpon>FrmProcessingUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmControls.resx">
+      <DependentUpon>FrmControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainIDE.resx">
+      <DependentUpon>FrmMainIDE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemoryMap.resx">
+      <DependentUpon>FrmMemoryMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOutputMessages.resx">
+      <DependentUpon>FrmOutputMessages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditor.resx">
+      <DependentUpon>FrmEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcessingUnit.resx">
+      <DependentUpon>FrmProcessingUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Ewok.Machine.Assembler\Ewok.Machine.Assembler.csproj">
+      <Project>{CF06DCB8-603C-421E-802C-42592D14B465}</Project>
+      <Name>Ewok.Machine.Assembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Common.ProcessingUnit\Ewok.Machine.Common.ProcessingUnit.csproj">
+      <Project>{77411B85-0762-4293-81D8-658D13259687}</Project>
+      <Name>Ewok.Machine.Common.ProcessingUnit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Dasm\Ewok.Machine.Dasm.S19.csproj">
+      <Project>{9146689B-4CD6-48D9-A04E-162A4EB0AEC3}</Project>
+      <Name>Ewok.Machine.Dasm.S19</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.Debug\Ewok.Machine.Debug.csproj">
+      <Project>{5CBD1933-1558-4523-8A6D-D767767C6319}</Project>
+      <Name>Ewok.Machine.Debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine.ProcessingUnit.6811\Ewok.Machine.ProcessingUnit.6811.csproj">
+      <Project>{48B59152-6201-40F6-ACE1-BB43AE65DDF0}</Project>
+      <Name>Ewok.Machine.ProcessingUnit.6811</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ewok.Machine\Ewok.Machine.Common.csproj">
+      <Project>{EF53E58B-3E28-4E1A-9D24-3583588469B1}</Project>
+      <Name>Ewok.Machine.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.pdb
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.dll
+C:\Users\Morphious\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.dll
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.pdb
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.dll
+C:\Users\AgentG\Desktop\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.pdb
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.dll
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\bin\Debug\Ewok.Machine.Asm.pdb
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Assembler.csproj.AssemblyReference.cache
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Assembler.csproj.CoreCompileInputs.cache
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.dll
+C:\projects\ewok_microprocessor_simulator\Ewok.Machine\Ewok.Machine.Assembler\obj\x86\Debug\Ewok.Machine.Asm.pdb

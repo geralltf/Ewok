@@ -1,0 +1,36 @@
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Form1.resources
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Properties.Resources.resources
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\bin\Debug\M68HC11.Simulator.exe
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\bin\Debug\M68HC11.Simulator.pdb
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.exe
+C:\Users\Morphious\Desktop\Projects\InProgress\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.pdb
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.exe
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.pdb
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\bin\Debug\M68HC11.Simulator.exe
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\bin\Debug\M68HC11.Simulator.pdb
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\ResolveAssemblyReference.cache
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Form1.resources
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Properties.Resources.resources
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\GenerateResource.read.1.tlog
+\\liffey\ggfranke\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\M68HC11.Simulator\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Form1.resources
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Properties.Resources.resources
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\bin\Debug\Ewok.exe
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\bin\Debug\Ewok.pdb
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\Ewok.exe
+E:\Documents and Settings\Morphious\Desktop\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\Ewok.pdb
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\Ewok.exe
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\Ewok.pdb
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\bin\Debug\Ewok.exe
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\bin\Debug\Ewok.pdb
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Form1.resources
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\M68HC11.Simulator.Properties.Resources.resources
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\M68HC11.Simulator[0.1]\M68HC11.Simulator\obj\x86\Debug\GenerateResource.write.1.tlog
